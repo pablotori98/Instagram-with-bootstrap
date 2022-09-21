@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Feed</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://images.vexels.com/media/users/3/137198/isolated/lists/07f0d7b69ef071571e4ada2f4d6a053a-icono-de-instagram-colorido.png">
+    </head>
+    <body>
+        <div class="container">
+            <!--Navbar-->
+            <nav class="navbar bg-light row">
+                <div class="container">
+                    <div class="col-8">
+                        <a class="navbar-brand ms-5 ps-5" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Bootstrap" width="" height="44">
+                            <img src="https://cd.andreabadilla.me/images/logo-ig-letters.png" height="54" alt="">
+                        </a>
+                    </div>
+                    <div class="col-2">
+                        <!--Boton modal (Contenido en el fondo del codigo)-->
+                        <button type="button" class="btn btn-primary m-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Subir publicación
+                        </button>                
+                    </div>
+                    <div class="col-2 p-0">
+                        <button type="button" class="btn btn-secondary ms-2">
+                            <i class="fas fa-cog"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Inicio Menu tabs-->
+            <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                    <!--Botones menu Tabs-->
+                <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Feed</button>
+                <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Carrusel</button>
+                </div>
+            </nav>
+
+            <!--Contenido Tabs-->
+            <div class="tab-content" id="nav-tabContent">
+                <!--Tab 1-->
+                <!--Fila 1-->
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-3">
+                            <img width="100%" src="https://2.bp.blogspot.com/-UJXyX9d8i90/Vdsok89yamI/AAAAAAAAKNM/N1muScz5Yis/s1600/insta%2BF1.jpg" alt=""> 
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://i.pinimg.com/originals/7d/a4/9f/7da49f01ffd8c19199bd5a9444f38340.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://www.diarioshow.es/u/fotografias/m/2022/5/23/f768x1-23850_23977_5050.jpg" alt="">
+                        </div>
+                    </div>
+
+                <!--Fila 2-->
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-3">
+                            <img width="100%" src="https://www.honda.es/content/dam/central/cars/world-of-honda/past/back-where-we-belong-1x1.jpg/jcr:content/renditions/m_r.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://i.pinimg.com/originals/86/b3/57/86b3572675a4000268ba921b0a819b39.jpg" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://i.pinimg.com/736x/b7/5e/76/b75e769d20b660ebe222f69e23dc287f.jpg" alt="">
+                        </div>
+                    </div>
+            
+                <!--Fila 3-->    
+                    <div class="row justify-content-center my-5">
+                        <div class="col-3">
+                            <img width="100%" src="https://cdn.motor1.com/images/mgl/3oXVY/s1/1x1/manthey-racing-porsche-911-gt3-rs-mr.webp" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://cdn.motor1.com/images/mgl/3oXVY/s1/1x1/manthey-racing-porsche-911-gt3-rs-mr.webp" alt="">
+                        </div>
+                        <div class="col-3">
+                            <img width="100%" src="https://cdn.motor1.com/images/mgl/3oXVY/s1/1x1/manthey-racing-porsche-911-gt3-rs-mr.webp" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--Tab 2-->
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
+                    <div class="row d-flex justify-content-center m-5 "> <!--Inicio Post-->
+                        <div class="card p-0" style="width: 30rem;">
+                            <div class="d-flex align-items-center m-1  row" style="height: 4rem;">
+                                <img src="https://i.pinimg.com/originals/86/b3/57/86b3572675a4000268ba921b0a819b39.jpg" class="rounded-circle col-2 py-1 " alt="">
+                                <div class="align-items-center mx-0 col-8 p-0">
+                                    <p class="m-0 p-0" ><strong>F1</strong></p>
+                                    <p class="m-0 p-0">Imola</p>
+                                </div>
+                                <i class="fa-solid fa-ellipsis col-1 me-0 pe-0"></i>
+                            </div>
+                            <img src="https://2.bp.blogspot.com/-UJXyX9d8i90/Vdsok89yamI/AAAAAAAAKNM/N1muScz5Yis/s1600/insta%2BF1.jpg" class="card-img-top" width="100%" alt="...">
+                            <div class="card-body">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment"></i>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <i class="fa-regular fa-bookmark float-end"></i>
+                                <p class="">Liked by <strong> maxverstappen carlossainz55</strong> and <strong> sebastianvettel</strong></p>
+                                <p class="card-text">Aqui podemos apreciar la livery especial que presentó el equipo austriaco en honor a su motorista japones.</p>
+                                <p class="mb-0">Ver los 155 comentarios</p>
+                                <p>Hace 21 horas</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="row d-flex justify-content-center m-5 "> <!--Inicio Post-->
+                        <div class="card p-0" style="width: 30rem;">
+                            <div class="d-flex align-items-center m-1  row" style="height: 4rem;">
+                                <img src="https://i.pinimg.com/originals/86/b3/57/86b3572675a4000268ba921b0a819b39.jpg" class="rounded-circle col-2 py-1 " alt="">
+                                <div class="align-items-center mx-0 col-8 p-0">
+                                    <p class="m-0 p-0" ><strong>F1</strong></p>
+                                    <p class="m-0 p-0">Austria</p>
+                                </div>
+                                <i class="fa-solid fa-ellipsis col-1 me-0 pe-0"></i>
+                            </div>
+                            <img src="https://i.pinimg.com/736x/b7/5e/76/b75e769d20b660ebe222f69e23dc287f.jpg" class="card-img-top" width="100%" alt="...">
+                            <div class="card-body">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment"></i>
+                                <i class="fa-solid fa-location-arrow"></i>
+                                <i class="fa-regular fa-bookmark float-end"></i>
+                                <p class="">Liked by <strong> maxverstappen carlossainz55</strong> and <strong> sebastianvettel</strong></p>
+                                <p class="card-text">Aqui podemos apreciar la livery especial que presentó el equipo austriaco en honor a su motorista japones.</p>
+                                <p class="mb-0">Ver los 155 comentarios</p>
+                                <p>Hace 21 horas</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+        
+        
+
+         
+       
+
+
+
+
+
+
+
+
+                <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sube Tu foto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Octicons-cloud-upload.svg/1200px-Octicons-cloud-upload.svg.png" width="100%" alt="">
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary">Upload</button>
+                    </div>
+                </div>
+                </div>
+            </div>    
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+</html>
